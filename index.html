@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REACT TASKS</title>
     <style>
-      table, td, th {  
-            border: 2px solid black;
-            text-align: center;
-            font-size:medium;
-        }
-
+        /* Apply a stylish border to the table */
         table {
-            border-collapse: collapse;
-            width: 100%;
+        width: 100%;
+        border-collapse: collapse;
+        border: 2px solid #e67e22;
+        border-radius: 10px;
         }
 
-        th, td {
-            padding: 10px;
+        /* Style table headers (th) */
+        th {
+        background-color: #e67e22;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px;
+        text-align: left;
         }
+
+        /* Style table rows (td) */
+        td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #e67e22;
+        }
+
+        /* Add a subtle hover effect on table rows */
+        tr:hover {
+        background-color: #f5f5f5;
+        transition: background-color 0.3s ease;
+        }
+
     </style>
 </head>
 <body>
